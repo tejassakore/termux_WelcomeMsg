@@ -1,0 +1,33 @@
+preview -----
+
+============================================
+      _   _       _    ____      _____
+__  _| | | | __ _| | _| __ )  __|_   _|
+\ \/ / |_| |/ _` | |/ /  _ \ / _ \| |
+ >  <|  _  | (_| |   <| |_) | (_) | |
+/_/\_\_| |_|\__,_|_|\_\____/ \___/|_|
+
+======== No Excuse For Misuse ==============
+
+
+Code --------
+
+#COMMANDS CREATED INSIDE /ETC/BASH.BASHRC FILE
+# USING ANSI COLORS
+RED="\e[31m"
+ORANGE="\e[33m"
+BLUE="\e[94m"
+GREEN="\e[92m"
+STOP="\e[0m"
+
+
+# LOGIN SCREEN MESSAGE
+screenfetch
+printf "${GREEN}"
+printf "============================================\n"
+printf "${ORANGE}"
+figlet  -f standard "xHakBoT"
+printf "${BLUE}"
+printf "${GREEN}"
+printf "======== No Excuse For Misuse ==============\n"
+printf "${STOP}"
