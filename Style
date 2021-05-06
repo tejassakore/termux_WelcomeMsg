@@ -23,11 +23,11 @@ STOP="\e[0m"
 
 # LOGIN SCREEN MESSAGE
 screenfetch
-printf "${GREEN}"
+printf "${RED}"
 printf "============================================\n"
 printf "${ORANGE}"
 figlet  -f standard "xHakBoT"
 printf "${BLUE}"
-printf "${GREEN}"
+printf "${RED}"
 printf "======== No Excuse For Misuse ==============\n"
 printf "${STOP}"
